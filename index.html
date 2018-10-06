@@ -20,15 +20,15 @@
 </head>
 
 <body>
-    <div class="site-container">
-        <div class="nav-menu">
-            <a href="#" id="logo" >FLUFF<br>STUFF</a>
-            <a href="#cart">cart</a>
-            <a href="#">|</a>
-            <a href="#news">contact</a>
-            <a href="#news">about</a>
-            <a href="#showcase" class="selected-nav-item">shop</a>
-        </div>
+    <div class="nav-menu">
+        <a href="#" id="logo" >FLUFF<br>STUFF</a>
+        <a href="#cart">cart</a>
+        <a href="#">|</a>
+        <a href="#news">contact</a>
+        <a href="#news">about</a>
+        <a href="#showcase" class="selected-nav-item">shop</a>
+    </div>
+    <div id="site-container">
 
         <section class="hero">
             <img src="img/fluff2.png" style="width: 75vw;" class="center">
@@ -76,8 +76,8 @@
                     <img src = "img/bed3.png" style="width: 50vw;" class="three-quarter">
                 </div>  
                 <div class="category">
-                    <img src="img/bedpillow.png" style="width: 45vw;"class="center">
-                    <div class="color-palette bed">
+                    <img src="img/bedpillow.png" style="width: 45vw;" class="center">
+                    <div class="color-palette">
                         <div class = "red-circle"></div>
                         <div class = "grey-circle"></div>
                         <div class = "yellow-circle color-selected"></div>
@@ -88,127 +88,124 @@
 
             <div class="product-category" id = "dot"> 
                 <div class="product">
-                    <img src="img/dot4.png" style="width: 50vw;" class="three-quarter">
-                </dvi>  
+                    <img src = "img/dot4.png" style="width: 50vw;" class="three-quarter">
+                </div>  
                 <div class="category">
-                    <img src="img/dotpillow.png" style="width: 45vw;"class="center">
+                    <img src="img/dotpillow.png" style="width: 45vw;" class="center">
                     <div class="color-palette">
                         <div class = "red-circle"></div>
                         <div class = "grey-circle"></div>
                         <div class = "yellow-circle"></div>
-                        <div class = "navy-circle color-selected"></div>
+                        <div class = "navy-circle  color-selected"></div>
                     </div>
                 </div>
             </div>
-        </div>
             <img src="img/footer4.png" class="footer">
         </section>
-
-        <div id="shadowBG"></div>
-
-        <div class="lightbox" id="dot-popup">
-            <div class="first-half">
-                <img src="img/dots1.jpg" style="height:100%">
-            </div>
-            <div class ="second-half">
-                <div class="x">X</div>
-                <div class="description">
-                    <h1>The Dot Pillow</h1>
-                    <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
-                    <h3>Confirm color: </h3>
-                    <div class = "circle red-circle"></div>
-                    <div class = "circle grey-circle"></div>
-                    <div class = "circle yellow-circle"></div>
-                    <div class = "circle navy-circle"></div>
-                    <!-- <br></br> -->
-                    <h3>Choose your stuffing: </h3>
-                    <div class = "circle down-circle"></div>
-                    <div class = "circle polyester-circle"></div>
-                    <div class = "circle foam-circle"></div>
-                    <br></br>
-                    <br></br>
-                <div class="button">Add to cart</div>
-            </div>
-        </div>
-
-        <div class="lightbox" id="floor-popup">
-            <div class="first-half">
-                <img src="img/dots1.jpg" style="height:100%">
-            </div>
-            <div class ="second-half">
-                <div class="x">X</div>
-                <div class="description">
-                    <h1>The Floor Pouf</h1>
-                    <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
-                    <h3>Confirm color: </h3>
-                    <div class = "circle red-circle"></div>
-                    <div class = "circle grey-circle"></div>
-                    <div class = "circle yellow-circle"></div>
-                    <div class = "circle navy-circle"></div>
-                    <!-- <br></br> -->
-                    <h3>Choose your stuffing: </h3>
-                    <div class = "circle down-circle"></div>
-                    <div class = "circle polyester-circle"></div>
-                    <div class = "circle foam-circle"></div>
-                    <br></br>
-                    <br></br>
-                <div class="button">Add to cart</div>
-            </div>
-        </div>
-
-        <div class="lightbox" id="couch-popup">
-            <div class="first-half">
-                <img src="img/couches1.jpg" style="height:100%">
-            </div>
-            <div class ="second-half">
-                <div class="x">X</div>
-                <div class="description">
-                    <h1>The Couch Pillow</h1>
-                    <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
-                    <h3>Confirm color: </h3>
-                    <div class = "circle red-circle"></div>
-                    <div class = "circle grey-circle"></div>
-                    <div class = "circle yellow-circle"></div>
-                    <div class = "circle navy-circle"></div>
-                    <!-- <br></br> -->
-                    <h3>Choose your stuffing: </h3>
-                    <div class = "circle down-circle"></div>
-                    <div class = "circle polyester-circle"></div>
-                    <div class = "circle foam-circle"></div>
-                    <br></br>
-                    <br></br>
-                <div class="button">Add to cart</div>
-            </div>
-        </div>
-
-        <div class="lightbox" id="bed-popup">
-            <div class="first-half">
-                <img src="img/beds1.jpg" style="height:100%">
-            </div>
-            <div class ="second-half">
-                <div class="x">X</div>
-                <div class="description">
-                    <h1>The Bed Pillow</h1>
-                    <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
-                    <h3>Confirm color: </h3>
-                    <div class = "circle red-circle"></div>
-                    <div class = "circle grey-circle"></div>
-                    <div class = "circle yellow-circle"></div>
-                    <div class = "circle navy-circle"></div>
-                    <!-- <br></br> -->
-                    <h3>Choose your stuffing: </h3>
-                    <div class = "circle down-circle"></div>
-                    <div class = "circle polyester-circle"></div>
-                    <div class = "circle foam-circle"></div>
-                    <br></br>
-                    <br></br>
-                <div class="button">Add to cart</div>
-            </div>
-        </div>
     <!--END .site-container-->
     </div>
-        <!--<script type="text/javascript" src="scripts/jquery.lightcase.min.js"></script>-->
-      <script type="text/javascript" src="scripts/script.js"></script>
+    <div id="shadowBG"></div>
+    <div class="lightbox" id="dot-popup">
+        <div class="first-half">
+            <img src="img/dots1.jpg" style="height:100%">
+        </div>
+        <div class ="second-half">
+            <div class="x">X</div>
+            <div class="description">
+                <h1>The Dot Pillow</h1>
+                <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
+                <h3>Confirm color: </h3>
+                <div class = "circle red-circle"></div>
+                <div class = "circle grey-circle"></div>
+                <div class = "circle yellow-circle"></div>
+                <div class = "circle navy-circle"></div>
+                <!-- <br></br> -->
+                <h3>Choose your stuffing: </h3>
+                <div class = "circle down-circle"></div>
+                <div class = "circle polyester-circle"></div>
+                <div class = "circle foam-circle"></div>
+                <br></br>
+                <br></br>
+            <div class="button">Add to cart</div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="floor-popup">
+        <div class="first-half">
+            <img src="img/floor1.jpg" style="height:100%">
+        </div>
+        <div class ="second-half">
+            <div class="x">X</div>
+            <div class="description">
+                <h1>The Floor Pouf</h1>
+                <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
+                <h3>Confirm color: </h3>
+                <div class = "circle red-circle"></div>
+                <div class = "circle grey-circle"></div>
+                <div class = "circle yellow-circle"></div>
+                <div class = "circle navy-circle"></div>
+                <!-- <br></br> -->
+                <h3>Choose your stuffing: </h3>
+                <div class = "circle down-circle"></div>
+                <div class = "circle polyester-circle"></div>
+                <div class = "circle foam-circle"></div>
+                <br></br>
+                <br></br>
+            <div class="button">Add to cart</div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="couch-popup">
+        <div class="first-half">
+            <img src="img/couches1.jpg" style="height:100%">
+        </div>
+        <div class ="second-half">
+            <div class="x">X</div>
+            <div class="description">
+                <h1>The Couch Pillow</h1>
+                <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
+                <h3>Confirm color: </h3>
+                <div class = "circle red-circle"></div>
+                <div class = "circle grey-circle"></div>
+                <div class = "circle yellow-circle"></div>
+                <div class = "circle navy-circle"></div>
+                <!-- <br></br> -->
+                <h3>Choose your stuffing: </h3>
+                <div class = "circle down-circle"></div>
+                <div class = "circle polyester-circle"></div>
+                <div class = "circle foam-circle"></div>
+                <br></br>
+                <br></br>
+            <div class="button">Add to cart</div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="bed-popup">
+        <div class="first-half">
+            <img src="img/beds1.jpg" style="height:100%">
+        </div>
+        <div class ="second-half">
+            <div class="x">X</div>
+            <div class="description">
+                <h1>The Bed Pillow</h1>
+                <p style="display:block; position:relative">   Descriptio is lorem ipsum to hellow for fluffy     pillow thingy. Soft velvet bblah hello again.</ p>
+                <h3>Confirm color: </h3>
+                <div class = "circle red-circle"></div>
+                <div class = "circle grey-circle"></div>
+                <div class = "circle yellow-circle"></div>
+                <div class = "circle navy-circle"></div>
+                <!-- <br></br> -->
+                <h3>Choose your stuffing: </h3>
+                <div class = "circle down-circle"></div>
+                <div class = "circle polyester-circle"></div>
+                <div class = "circle foam-circle"></div>
+                <br></br>
+                <br></br>
+            <div class="button">Add to cart</div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="scripts/script.js"></script>
     
 </body>
 </html>

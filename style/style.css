@@ -202,7 +202,7 @@ img.three-quarter {
   width:100vw;
   height:100vw;
   background-color: black;
-  opacity:0.25;
+  opacity:0.1;
   position:fixed;
   top:0px;
   left:0px;
@@ -223,6 +223,7 @@ img.three-quarter {
   box-shadow: 10px 15px 80px rgba(0, 0, 0, 0.3);
   visibility: hidden;
   border-radius: 10px;
+
 }
 .first-half{
   width:50%;
@@ -260,4 +261,10 @@ img.three-quarter {
     text-decoration: none;
     display: block;
     font-size: 16px;
+}
+.button:hover {
+  background-color:#ff5050;
+}
+#site-container {
+  transition: all .1s ease-out;
 }

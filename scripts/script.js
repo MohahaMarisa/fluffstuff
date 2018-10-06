@@ -37,19 +37,23 @@ $(document).ready(function() {
 	//make sure the lightboxes popup for their corresponding product!
 	document.getElementById('dot').addEventListener("click", function(){
 		document.getElementById('dot-popup').style.visibility = "visible";
-		document.getElementById('shadowBG').style.visibility = "visible";	
+		document.getElementById('shadowBG').style.visibility = "visible";
+		document.getElementById('site-container').style.filter="blur(30px)";
 	});
 	document.getElementById('bed').addEventListener("click", function(){
 		document.getElementById('bed-popup').style.visibility = "visible";
-		document.getElementById('shadowBG').style.visibility = "visible";	
+		document.getElementById('shadowBG').style.visibility = "visible";
+		document.getElementById('site-container').style.filter="blur(30px)";	
 	});
 		document.getElementById('floor').addEventListener("click", function(){
 		document.getElementById('floor-popup').style.visibility = "visible";
-		document.getElementById('shadowBG').style.visibility = "visible";	
+		document.getElementById('shadowBG').style.visibility = "visible";
+		document.getElementById('site-container').style.filter="blur(30px)";	
 	});
-			document.getElementById('couch').addEventListener("click", function(){
+	document.getElementById('couch').addEventListener("click", function(){
 		document.getElementById('couch-popup').style.visibility = "visible";
-		document.getElementById('shadowBG').style.visibility = "visible";	
+		document.getElementById('shadowBG').style.visibility = "visible";
+		document.getElementById('site-container').style.filter="blur(30px)";	
 	});
 
 	var x = document.getElementsByClassName('x');
@@ -57,6 +61,7 @@ $(document).ready(function() {
 	for (var i =0; i<x.length; i++){
 		x[i].addEventListener("click", function(){
 			document.getElementById('shadowBG').style.visibility = "hidden";
+			document.getElementById('site-container').style.filter="blur(0px)";
 			var lightboxes = document.getElementsByClassName('lightbox');
 			for(var j = 0; j < lightboxes.length; j++){
 				lightboxes[j].style.visibility = "hidden";
