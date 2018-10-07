@@ -1,9 +1,13 @@
 body {
   overflow-x: hidden;
+  font-family: 'Quicksand',helvetica,sans-serif;
 }
 /*text styles*/
+h1 {
+}
+h2 {
+}
 h3 {
-  font-family: 'Quicksand',helvetica,sans-serif;
   font-size: 18px;
 }
 /* Style the navbar */
