@@ -14,12 +14,9 @@ h3 {
 .nav-menu {
   overflow: hidden;
   background-color: transparent;
-
   position: fixed;
   top: 0;
   width: 100%;
-
-
   font-family: 'Righteous',helvetica,sans-serif;
   font-size: 12px;
   letter-spacing: 3px;
@@ -249,7 +246,7 @@ img.three-quarter {
   font-size: 2em;
 }
 .description{
-  padding:65px;
+  padding:45px 65px;
 /*  height: 10em;
   display: flex;
   align-items: center;
